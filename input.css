@@ -6,6 +6,9 @@
   h3 {
     @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
   }
+  h5 {
+    @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+  }
 }
 
 .section-container {
@@ -16,8 +19,8 @@
   @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }
 
-.section-paragraph {
-  @apply max-w-3xl mx-auto mb-24 text-xl leading-9 text-center text-grayishBlue;
+.section-content {
+  @apply max-w-3xl mx-auto text-xl leading-9 text-center text-grayishBlue;
 }
 
 body {
