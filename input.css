@@ -20,7 +20,7 @@
 }
 
 .section-content {
-  @apply max-w-3xl mx-auto text-xl leading-9 text-center text-grayishBlue;
+  @apply max-w-3xl mx-auto  leading-9 text-center text-grayishBlue;
 }
 
 body {
@@ -33,4 +33,9 @@ body {
   body {
     background-image: url("../images/bg-header-mobile.png");
   }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
 }
